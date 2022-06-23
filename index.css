@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+
+#mainContainer{
+    width: 550px;
+    height: 729px;
+    margin: 10px auto 10px auto;
+
+
+}
+
+#inputSection{
+    background-color: #6943FF;
+    margin: none;
+    padding: 0%;
+    width: 550px;
+    height: 285px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+#heading{
+    margin-top: 30px;
+    font-weight: 800;
+    font-size: 28px;
+    margin-bottom: 0px;
+}
+
+#inputBox{
+    height: 83px;
+    width: 117px;
+    border: 2px solid #B295FF;
+    background-color:#6943FF;
+    margin-top: 30px;
+    font-size: 58px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+}
+
+#convertbtn{
+    margin-top: 26px;
+    height: 42px;
+    width: 117px;
+    padding: 9px 27.5px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 34px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #3D3D3D;
+
+}
+
+#outputSection{
+    height: 444px;
+    width: 550px;
+    background-color: #F4F4F4;
+    border: 1px solid #F4F4F4;
+
+}
+
+#outputLabel{
+    margin-top: 36px;
+    margin-bottom: 12.5px;
+    
+
+}
+
+.convertLabel{
+    height: 108px;
+    width: 500px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-bottom: 23.43px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.outputText{
+    font-weight: 600;
+    font-size: 20px;
+    color: #5A537B;
+    margin-top: 31px;
+    margin-bottom: 0px;
+}
+
+#volumeConvert,#lengthConvert, #massConvert{
+    font-weight:400 ;
+    font-size: 14px;
+    margin-top: 9px;
+    margin-bottom: 18.5px;
+    line-height: 20px;
+}
